@@ -5,6 +5,7 @@
 **Course:** Psych 755, Summer 26
 
 One or two sentences on what this project asks and what it found. Replace this before you submit.
+Does group communication apprehension correlate to public transportation usage?
 
 ## Members
 
