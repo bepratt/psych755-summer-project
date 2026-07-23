@@ -1,5 +1,5 @@
 ---
-title: Research Memo Template
+title: Research Memo
 author: "Nick Mergendahl"
 date: "`r lubridate::today()`"
 status: draft
@@ -54,7 +54,7 @@ format:
         \vspace{0.5em}
   docx:
     toc: false
-bibliography: memo_template_refs.bib
+bibliography: references.bib
 execute:
   warning: false
   message: false
@@ -67,19 +67,19 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from IPython.display import Markdown, display
 
-mpg = sns.load_dataset("mpg")
+#mpg = sns.load_dataset("mpg")
 ```
 
 ## Analytical Or Research Question
 
-Did vehicles become more efficient over time?
+Does positive advice regarding group speaking correspond to public transportation use?
 
 ## Answer, Response, & Summary of Results
 
 Yes it does appear that vehicles have become more efficient over time. Using the `mpg` dataset from Seaborn [@Waskom2021seaborn] we can see that the average fuel efficiency of vehicles has increased over the years.
 
 ```{python}
-#| label: fig-mpg-trend
+#| label: fig-xx-xxxx
 #| fig-cap: "Fuel Efficiency Trends Over Time"
 
 avg_mpg_by_year = mpg.groupby('model_year')['mpg'].mean()
